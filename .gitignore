@@ -1,4 +1,90 @@
+# ==========================
+# Dependencies
+# ==========================
 node_modules/
+
+# ==========================
+# Production Build
+# ==========================
 dist/
+build/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# ==========================
+# Logs
+# ==========================
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Coverage
+# ==========================
+coverage/
+.nyc_output/
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# ==========================
+# Vite
+# ==========================
+vite.svg
+
+# ==========================
+# Editor
+# ==========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# ==========================
+# Package Managers
+# ==========================
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ==========================
+# Misc
+# ==========================
+.vercel/
+.netlify/
+.firebase/

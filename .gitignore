@@ -12,12 +12,12 @@ build/
 # ==========================
 # Environment Variables — SENSITIVE: NEVER COMMIT
 # ==========================
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env.*.local
+./.env
+./.env.local
+./.env.development.local
+./.env.test.local
+./.env.production.local
+./.env.*.local
 !.env.example
 
 # ==========================
@@ -81,7 +81,7 @@ temp/
 # ==========================
 # Deployment
 # ==========================
-.vercel/
-.netlify/
-.firebase/
+./.vercel/
+./.netlify/
+./.firebase/
 

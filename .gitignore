@@ -10,13 +10,14 @@ dist/
 build/
 
 # ==========================
-# Environment Variables
+# Environment Variables — SENSITIVE: NEVER COMMIT
 # ==========================
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*.local
 !.env.example
 
 # ==========================
@@ -42,11 +43,6 @@ coverage/
 .parcel-cache/
 .eslintcache
 *.tsbuildinfo
-
-# ==========================
-# Vite
-# ==========================
-vite.svg
 
 # ==========================
 # Editor
@@ -83,8 +79,9 @@ temp/
 .yarn/install-state.gz
 
 # ==========================
-# Misc
+# Deployment
 # ==========================
 .vercel/
 .netlify/
 .firebase/
+
